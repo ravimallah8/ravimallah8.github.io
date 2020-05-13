@@ -1,9 +1,262 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<title>Test Page</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Ravi Mallah Portfolio</title>
 </head>
 <body>
-	<p> This for testing purpose </p>
+    <!-- First we will design for mobile view-->
+    <!-- Here we have 4 sections in main() -->
+    <!-- ===== Header ===== -->
+    <div class="container">
+        <header id="showcase" class="grid">
+            <div class="logo">
+                <!-- Moving page when user clicks on link-->
+                <a href="#section-d">
+                    <ul>
+                        <li id="logo_icon" ><img src="assests/contact_icon.png" alt="logo"></li>
+                        <li><h1 id="logo_text">Contact Me.</h1></li>
+                    </ul>
+                </a>
+            </div>
+                <!--
+                    <a href="#">
+                        <ul>
+                        <li>
+                            <img id="logo_icon" class="icon" src="assests/contact_icon.png" alt="">
+                        </li>
+                        <li>
+                            <h4 id="logo_text" >Contact Me.</h4>
+                        </li>
+                    </ul>
+                </a>
+                -->               
+            <nav>
+                <ul>
+                    <li>
+                        <div class="icon">
+                            <a href="https://www.instagram.com/ravimallah8/">
+                                <img src="assests/instagram_icon.png" alt="">
+                            </a>                           
+                        </div>
+                    </li>
+                    <li>
+                        <div class="icon">
+                            <a href="https://github.com/ravimallah8">
+                                <img src="assests/github_icon.png" alt="">
+                            </a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="icon">
+                            <a href="https://www.behance.net/ravimallah">
+                                <img src="assests/behance_icon.png" alt="">
+                            </a>                          
+                        </div>
+                    </li>
+    
+                    <!--
+                    <li><a href="#">Instagram</a></li>
+                    <li><a href="#">Facebook</a></li>
+                    <li><a href="#">Twitter</a></li>
+                    -->
+                </ul>
+            </nav>
+            
+        </header>
+    
+        <!-- Main Area-->
+        <main id="main">
+            <!-- Section A == Introduction ==-->
+            <section class="grid" id="section-a">
+                <div class="intro">
+                    <h1>Ravi Mallah.</h1>
+                    <p>Hello, my name is Ravi Mallah. I am a UI/UX Designer & <span>Web Developer.</span></p>
+    
+                    <ul>
+                        <li>UI/UX</li>
+                        <li>Web Designer</li>
+                        <li>App Designer</li>
+                        <li>Front-end</li>
+                    </ul>
+                </div>
+    
+                <div class="avatar">
+                    <img src="assests/avatar.png" alt="">
+                </div>
+            </section>
+    
+            <!-- Section B == Skills ==-->
+            <section class="grid" id="section-b">
+                <div class="down-icon">
+                    <img src="assests/Group 5.png" alt="">
+                </div>
+                <h1 class="head"><span>01</span> PROFESSIONAL</h1>
+                <h3 class="head-discription">MY KNOWLEDGE IN SOFTWARE</h3>
+                <ul>
+                    <li>
+                        <div class="skill">
+                            <h4>WordPress</h4>
+                        </div>
+                        <div class="skills-per">
+                            <h4>20%</h4>
+                        </div>
+                        <div class="myProgress">
+                            <div class="myBar first"></div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="skills">
+                            <h4>JavaScript</h4>
+                        </div>
+                        <div class="skills-per">
+                            <h4>30%</h4>
+                        </div>
+                        <div class="myProgress">
+                            <div class="myBar second"></div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="skills">
+                            <h4>HTML5 & CSS</h4>
+                        </div>
+                        <div class="skills-per">
+                            <h4>60%</h4>
+                        </div>
+                        <div class="myProgress">
+                            <div class="myBar third"></div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="skills">
+                            <h4>Python</h4>
+                        </div>
+                        <div class="skills-per">
+                            <h4>35%</h4>
+                        </div>
+                        <div class="myProgress">
+                            <div class="myBar fourth"></div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="skills">
+                            <h4>Adobe XD</h4>
+                        </div>
+                        <div class="skills-per">
+                            <h4>55%</h4>
+                        </div>
+                        <div class="myProgress">
+                            <div class="myBar fifth"></div>
+                        </div>
+                    </li>
+                </ul>
+            </section>
+    
+            <!-- Section C == Projects ==-->
+            <section class="grid" id="section-c">
+                <h1 class="head"><span>02</span> PROJECTS</h1>
+                <h3 class="head-discription">MY LATEST WORK.
+                    <a href="https://www.behance.net/ravimallah">SEE MORE</a>
+                </h3>
+                <div class="cards">
+                    <ul>
+                        <li>
+                            <div class="card">
+                                <a href="https://www.behance.net/ravimallah">
+                                    <img src="assests/project_1.png" alt="">
+                                </a>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="card">
+                                <a href="https://www.behance.net/ravimallah">
+                                    <img src="assests/project_2.png" alt="">
+                                </a>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="card">
+                                <a href="https://www.behance.net/ravimallah">
+                                    <img src="assests/project_3.png" alt="">
+                                </a>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="card">
+                                <a href="https://www.behance.net/ravimallah">
+                                    <img src="assests/project_4.png" alt="">
+                                </a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>                
+                <div id="more">
+                    <ul>
+                        <li>
+                            <h1>More</h1>
+                        </li>
+                        <li>
+                            <a href="https://www.behance.net/ravimallah">
+                                <img src="assests/next_icon.png" alt="">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+    
+            <!-- Section D == Connect with me ==-->
+            <section class="grid" id="section-d">
+                <h1 class="head"><span>03</span> CONNECT WITH ME</h1>
+                <h3 class="head-discription">FEEL FREE TO CONTACT</h3>
+    
+                <ul>
+                    <li>
+                        <div class="icon">
+                            <a href="https://github.com/ravimallah8">
+                                <img src="assests/github_icon.png" alt="">
+                            </a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="icon">
+                            <a href="https://www.facebook.com/ravimallah8">
+                                <img src="assests/facebook_icon.png" alt="">
+                            </a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="icon">
+                            <a href="https://www.linkedin.com/in/ravimallah8/">
+                                <img src="assests/linkedin_icon.png" alt="">
+                            </a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="icon">
+                            <a href="https://twitter.com/ravimallah8">
+                                <img src="assests/twitter_icon.png" alt="">
+                            </a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="icon">
+                            <a href="https://medium.com/@ravimallah8">
+                                <img src="assests/medium_icon.png" alt="">
+                            </a>
+                        </div>
+                    </li>
+                </ul>
+            </section>
+        </main>
+    </div>
+    
+    <!-- Footer Area -->
+    <footer>
+        <div id="main-footer">
+            <p>Made By ravimallah8.github.io</p>
+        </div>
+    </footer>
 </body>
 </html>
